@@ -34,7 +34,7 @@ Array.from(itemss).forEach((el) => {
     item.style.display = "none";
 
     // نحدد هل الجهاز موبايل ولا لا
-    let isMobile = window.innerWidth <= 768;
+    let isMobile = window.innerWidth <= 868;
 
     // ناخد القيمة من data attribute
     let scrollMobile = parseFloat(el.dataset.scrollMobile);
@@ -59,7 +59,7 @@ window.onscroll = function () {
   let loor = document.querySelector(".loor");
   let loot = document.querySelector(".loot");
 
-  let isMobile = window.innerWidth <= 768;
+  let isMobile = window.innerWidth <= 868;
   let pageHeight = document.body.scrollHeight - window.innerHeight;
   
 
